@@ -32,7 +32,8 @@ namespace Assignmnt01
             label_documentno.Text = Form1.SetValueForText6;
             label_expiry.Text = Form1.SetValueForText7;
             label_weight.Text = Form1.SetValueForText8;
-
+            label6.Text = Form1.SetValueForText9;
+            label18.Text = Form1.SetValueForText10;
 
         }
 
@@ -46,41 +47,9 @@ namespace Assignmnt01
 
         }
 
-        private void label_date_Click(object sender, EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
-
-
-        }
-
-        private void label_email_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_from_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_to_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_expiry_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label_documentno_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Close();
-
+            System.Windows.Forms.Application.ExitThread();
         }
     }
 }
