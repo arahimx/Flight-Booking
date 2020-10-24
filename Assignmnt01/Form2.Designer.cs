@@ -79,9 +79,8 @@
             this.label_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.label_name.Location = new System.Drawing.Point(264, 81);
             this.label_name.Name = "label_name";
-            this.label_name.Size = new System.Drawing.Size(41, 15);
+            this.label_name.Size = new System.Drawing.Size(0, 15);
             this.label_name.TabIndex = 0;
-            this.label_name.Text = "label1";
             this.label_name.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
@@ -201,54 +200,48 @@
             this.label_documentno.AutoSize = true;
             this.label_documentno.Location = new System.Drawing.Point(267, 216);
             this.label_documentno.Name = "label_documentno";
-            this.label_documentno.Size = new System.Drawing.Size(35, 13);
+            this.label_documentno.Size = new System.Drawing.Size(0, 13);
             this.label_documentno.TabIndex = 2;
-            this.label_documentno.Text = "label3";
             // 
             // label_expiry
             // 
             this.label_expiry.AutoSize = true;
             this.label_expiry.Location = new System.Drawing.Point(267, 242);
             this.label_expiry.Name = "label_expiry";
-            this.label_expiry.Size = new System.Drawing.Size(35, 13);
+            this.label_expiry.Size = new System.Drawing.Size(0, 13);
             this.label_expiry.TabIndex = 3;
-            this.label_expiry.Text = "label3";
             // 
             // label_to
             // 
             this.label_to.AutoSize = true;
             this.label_to.Location = new System.Drawing.Point(267, 164);
             this.label_to.Name = "label_to";
-            this.label_to.Size = new System.Drawing.Size(35, 13);
+            this.label_to.Size = new System.Drawing.Size(0, 13);
             this.label_to.TabIndex = 4;
-            this.label_to.Text = "label3";
             // 
             // label_from
             // 
             this.label_from.AutoSize = true;
             this.label_from.Location = new System.Drawing.Point(267, 139);
             this.label_from.Name = "label_from";
-            this.label_from.Size = new System.Drawing.Size(35, 13);
+            this.label_from.Size = new System.Drawing.Size(0, 13);
             this.label_from.TabIndex = 5;
-            this.label_from.Text = "label3";
             // 
             // label_email
             // 
             this.label_email.AutoSize = true;
             this.label_email.Location = new System.Drawing.Point(267, 110);
             this.label_email.Name = "label_email";
-            this.label_email.Size = new System.Drawing.Size(35, 13);
+            this.label_email.Size = new System.Drawing.Size(0, 13);
             this.label_email.TabIndex = 6;
-            this.label_email.Text = "label3";
             // 
             // label_date
             // 
             this.label_date.AutoSize = true;
             this.label_date.Location = new System.Drawing.Point(270, 189);
             this.label_date.Name = "label_date";
-            this.label_date.Size = new System.Drawing.Size(35, 13);
+            this.label_date.Size = new System.Drawing.Size(0, 13);
             this.label_date.TabIndex = 7;
-            this.label_date.Text = "label3";
             // 
             // Form2
             // 

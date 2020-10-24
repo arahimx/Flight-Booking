@@ -42,6 +42,7 @@ namespace Assignmnt01
             this.MinimizeBox = false;
 
 
+
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -53,15 +54,19 @@ namespace Assignmnt01
                 label13.Text = "Passport Expiry Date.";
 
             }
- 
+            else
+            {
+                label7.Text = "Document No.";
+                label8.Text = "Document Issue Date.";
+                label13.Text = "Document Expiry Date.";
+            }
 
         }
 
         private void numeric_weight_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        { }
+        
+    
         private void label13_Click(object sender, EventArgs e)
         {
 
@@ -76,12 +81,13 @@ namespace Assignmnt01
             SetValueForText5 = label_calender.SelectionStart.ToString("dd MMM yyyy"); ;
             SetValueForText6 = label_documentNo.Text;
             SetValueForText7 = datetimepicker_expirydate.Text;
-            SetValueForText8 = numericweight.Text;
+            SetValueForText8 = (numericweight.Value * 5).ToString();
             SetValueForText9 = label7.Text;
             SetValueForText10 = label13.Text;
 
             if (datetimepicker_expirydate.Value.Date > dateTimePicker_issedate.Value.Date)
             {
+                label12.Text = "";
                 Form2 frm2 = new Form2();
                 frm2.Show();
 
@@ -90,6 +96,16 @@ namespace Assignmnt01
             {
                 label12.Text = "*Document expiry date must be greater then Issue date";
             }
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
